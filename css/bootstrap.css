@@ -1277,6 +1277,7 @@ h6,
   font-size: 12px;
 }
 p {
+  font-family: inherit;
   margin: 0 0 10px;
 }
 .lead {
