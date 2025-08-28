@@ -5,12 +5,15 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
+  
   margin: 0;
 }
 article,
@@ -1073,8 +1076,6 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/* In custom.css or a <style> block */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
