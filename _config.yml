@@ -1,12 +1,13 @@
 # Site settings
 title: Bosque Buddies Animal Rescue
 email: contact@bbanimalrescue.org
+phone: +15053338980
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 facebook_username: BosqueBuddies
-github_username:
+instagram_username: bbanimalrescue
 
 # Build settings
 markdown: kramdown
