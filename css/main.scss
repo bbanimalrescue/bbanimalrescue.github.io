@@ -34,7 +34,7 @@
 // }
 
 // variables.less
-$theme-primary: #00774d;
+$theme-primary: #00463d;
 $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -42,56 +42,3 @@ $theme-dark: #222;
         "mixins",
         "base"
 ;
-
-.faq-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.faq-item {
-  margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 15px;
-}
-
-.faq-question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  padding: 10px 0;
-  font-weight: bold;
-  color: #333;
-}
-
-.faq-question h3 {
-  margin: 0;
-  font-size: 1.1em;
-}
-
-.faq-icon {
-  font-size: 1.5em;
-  transition: transform 0.3s ease;
-}
-
-.faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  color: #666;
-  padding-top: 5px;
-}
-
-/* Styles for when the answer is active/expanded (requires JavaScript for toggling) */
-.faq-item.active .faq-answer {
-  max-height: 200px; /* Adjust as needed */
-  padding-bottom: 10px;
-}
-
-.faq-item.active .faq-icon {
-  transform: rotate(45deg); /* Changes '+' to 'x' or similar */
-}
